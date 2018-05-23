@@ -1,0 +1,24 @@
+In this second assignment we have written three functions.I have used three different js file for eachfunction.
+Logic followed in those functions are as follows
+
+1.Write a function that takes Season number and episode number as input
+and gives all the information about that particular episode as output.
+Logic: index.js file contains this function.
+first of all total number of episodes are counted using (data._embedded.episodes.length) and stored in len variable.
+For loop is ran for len times. In each iteration season number and episode number of input is compared with each episode details using if
+else loop. When match found it outputs using console.log.
+
+
+2.Write a function to search episode by its name.
+Logic: index1.js file contains this function.
+first of all total number of episodes are counted using (data._embedded.episodes.length) and stored in len variable.
+For loop is ran for len times. In each iteration episode name of input is compared with each episode details using if
+else loop. When match found it outputs using console.log.
+
+2.Write a function that can take any number of episode ids as input and
+returns all the information about those episodes.
+Logic: index2.js file contains this function.
+first of all total number of episodes are counted using (data._embedded.episodes.length) and stored in len variable.
+Rest parameter is used for taking any number of episode ids as input and input is stored in array.Then array length is counted.
+For loop is ran for len times. In each iteration  each array element of input is compared with each episode details using if
+else loop. When match found it outputs using console.log.
